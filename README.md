@@ -1,1 +1,3 @@
 # Python_Intraday_Trading_PnL_Analysis
+This Python project calculates various transaction charges and Profit and Loss (PnL) summaries for intraday trades using stock trade data in a CSV format. The program processes trades from the "orders" file, focusing on "MIS" product (intraday) trades and ignoring cancelled or rejected orders. It computes key charges like brokerage, STT/CTT, GST, SEBI, and others, then summarizes the data in an Excel file ("stock_data") with three tables: individual trade charges, stock-wise/type-wise analysis, and overall stock performance. 
+The project uses NSE transaction rates to calculate charges and provides a comprehensive overview of each stock's Gross PnL, Total Charges, and Net PnL.
